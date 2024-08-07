@@ -85,7 +85,7 @@ jobs:
 
     # Apply the Terraform Plan
     - name: Terraform Apply
-      run: terraform apply tf.plan
+      run: terraform apply tfplan
 
 
 
