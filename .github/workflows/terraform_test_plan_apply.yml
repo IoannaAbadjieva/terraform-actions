@@ -123,7 +123,7 @@ jobs:
 
     # Apply the Terraform Plan
     - name: Terraform Apply
-      run: terraform apply tfplan
+      run: terraform apply tfplan -auto-approve tfplan
 
   terraform_destroy:
     name: 'Terraform Destroy'
