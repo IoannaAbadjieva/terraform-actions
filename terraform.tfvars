@@ -1,5 +1,5 @@
 resource_group_name      = "TaskBoardRG"
-resource_group_location  = "West Europe"
+resource_group_location  = "North Europe"
 app_service_plan_name    = "TaskBoardServicePlan"
 app_service_plan_sku     = "F1"
 app_service_name         = "TaskBoard"
