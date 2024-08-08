@@ -50,9 +50,9 @@ resource "azurerm_linux_web_app" "alwa" {
 }
 
 resource "azurerm_app_service_source_control" "aassc" {
-  app_id   = azurerm_linux_web_app.alwa.id
-  repo_url = var.app_service_repo_url
-  branch   = var.app_service_branch
+  app_id                 = azurerm_linux_web_app.alwa.id
+  repo_url               = var.app_service_repo_url
+  branch                 = var.app_service_branch
   use_manual_integration = true
 }
 
